@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'header-image': "url('./src/assets/images/new-desktop.webp')",
-        'mobile-header-image': "url('./src/assets/images/new-mobile.webp')"
+        'header-image': "url('/src/assets/images/new-desktop.webp')",
+        'mobile-header-image': "url('/src/assets/images/new-mobile.webp')"
 
       },
       keyframes: {
