@@ -12,7 +12,7 @@ import appLogo from './assets/images/app-logo.svg';
 import appStore from './assets/images/app-store.svg';
 import googlePlay from './assets/images/google-play.png';
 import restaurantInfo from './assets/js/restaurantInfo';
-import createRestaurant from './assets/props/restaurant';
+import createRestaurant from './assets/props/Restaurant';
 // import MobileNav from './assets/components/MobileNav';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
