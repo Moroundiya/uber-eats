@@ -1,0 +1,33 @@
+html,
+body,
+div#root {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'UberMoveLight';
+  src: local('UberMove'),
+    url('./assets/fonts/UberMove/UberMoveTextLight.otf') format('opentype');
+}
+@font-face {
+  font-family: 'UberMoveRegular';
+  src: local('UberMove'),
+    url('./assets/fonts/UberMove/UberMoveTextMedium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'UberMoveMedium';
+  src: local('UberMove'),
+    url('./assets/fonts/UberMove/UberMoveMedium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'UberMoveBold';
+  src: local('UberMove'),
+    url('./assets/fonts/UberMove/UberMoveBold.otf') format('opentype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
