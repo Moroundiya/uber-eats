@@ -12,7 +12,7 @@ function MobileNav() {
 
     useEffect(() => {
         setDisplay(display)
-        console.log(display)
+        // console.log(display)
     }, [display]);
 
 

@@ -21,10 +21,10 @@ function App() {
   window.onscroll = () => {
     if (window.scrollY > 1) {
       setNavbarScroll(true);
-      console.log(window.scrollY, navbarScroll);
+      // console.log(window.scrollY, navbarScroll);
     } else {
       setNavbarScroll(false);
-      console.log(window.scrollY, navbarScroll);
+      // console.log(window.scrollY, navbarScroll);
     }
   };
   useEffect(() => {
@@ -37,7 +37,7 @@ function App() {
   // const [displayNew, setDisplayNew]=useState(true)
   const changeDisplay = () => {
     setDisplay(!display)
-    console.log(display)
+    // console.log(display)
   }
   return (
     <div className='w-full h-full'>
@@ -66,7 +66,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div data-aos="fade-down" className={navbarScroll ? 'flex w-full justify-between fixed items-center bg-white border-b-[.2rem] px-4 py-3 md:px-[2rem] md:py-[1.5rem]' : 'hidden'} >
+      <div data-aos="fade-down" className={navbarScroll ? 'flex w-full justify-between fixed z-50 items-center bg-white border-b-[.2rem] px-4 py-3 md:px-[2rem] md:py-[1.5rem]' : 'hidden'} >
         <div className='hidden md:flex md:items-center'>
           <GiHamburgerMenu className='text-2xl mr-3 cursor-pointer md:mr-7 md:text-xl' onClick={changeDisplay} />
           <a href="">
